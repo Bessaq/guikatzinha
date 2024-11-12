@@ -38,12 +38,32 @@ export default {
         float: {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(-10px)' },
+        },
+        'bounce-diagonal-1': {
+          '0%, 100%': { transform: 'translate(0, 0)' },
+          '50%': { transform: 'translate(20px, 20px)' },
+        },
+        'bounce-diagonal-2': {
+          '0%, 100%': { transform: 'translate(0, 0)' },
+          '50%': { transform: 'translate(-20px, 20px)' },
+        },
+        'bounce-diagonal-3': {
+          '0%, 100%': { transform: 'translate(0, 0)' },
+          '50%': { transform: 'translate(20px, -20px)' },
+        },
+        'bounce-diagonal-4': {
+          '0%, 100%': { transform: 'translate(0, 0)' },
+          '50%': { transform: 'translate(-20px, -20px)' },
         }
       },
       animation: {
         blink: 'blink 1s step-end infinite',
         glitch: 'glitch 0.3s ease infinite',
         float: 'float 3s ease-in-out infinite',
+        'bounce-diagonal-1': 'bounce-diagonal-1 3s infinite',
+        'bounce-diagonal-2': 'bounce-diagonal-2 4s infinite',
+        'bounce-diagonal-3': 'bounce-diagonal-3 3.5s infinite',
+        'bounce-diagonal-4': 'bounce-diagonal-4 4.5s infinite',
       },
       backgroundImage: {
         'rainbow-gradient': 'linear-gradient(45deg, #FF6AD5, #26C6DA, #FFE45E, #72F1B8)',

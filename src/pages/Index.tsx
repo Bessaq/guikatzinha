@@ -9,11 +9,11 @@ const Index = () => {
       <div className="container mx-auto px-4 py-8">
         <header className="text-center mb-12">
           <BlinkingText 
-            text="✨ FELIZ ANIVERSÁRIO GUI! ✨" 
+            text="✨ FELIZ ANIVERSÁRIO GUI (KATZINHA)! ✨" 
             className="text-4xl md:text-6xl mb-4"
           />
           <div className="pixel-text text-neon-green text-xl animate-pulse">
-            ~* Katzinha, muitas felicidades! *~
+            ~* Muitas felicidades! *~
           </div>
         </header>
 
