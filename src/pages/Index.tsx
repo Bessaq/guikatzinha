@@ -9,11 +9,11 @@ const Index = () => {
       <div className="container mx-auto px-4 py-8">
         <header className="text-center mb-12">
           <BlinkingText 
-            text="✨ BEM VINDO AO MEU SITE ✨" 
+            text="✨ FELIZ ANIVERSÁRIO GUI! ✨" 
             className="text-4xl md:text-6xl mb-4"
           />
           <div className="pixel-text text-neon-green text-xl animate-pulse">
-            ~* Entrem e fiquem à vontade *~
+            ~* Katzinha, muitas felicidades! *~
           </div>
         </header>
 
@@ -25,11 +25,11 @@ const Index = () => {
 
         <footer className="text-center mt-12">
           <BlinkingText 
-            text="COM AMOR ❤️ DA VOVÓ" 
+            text="COM MUITO CARINHO! ❤️" 
             className="text-2xl text-neon-pink"
           />
           <div className="pixel-text text-neon-blue mt-4">
-            Não esqueça de compartilhar com 10 amigos!
+            Que seu dia seja cheio de alegria e amor! 🎂✨
           </div>
         </footer>
       </div>
