@@ -7,7 +7,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-retro-grid bg-black">
       <div className="container mx-auto px-4 py-8">
-        <header className="text-center mb-12">
+        <header className="flex flex-col items-center justify-center text-center mb-12">
           <BlinkingText 
             text="✨ FELIZ ANIVERSÁRIO ✨" 
             className="text-4xl md:text-6xl mb-4"
