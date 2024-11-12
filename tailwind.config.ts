@@ -39,31 +39,43 @@ export default {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(-10px)' },
         },
-        'bounce-diagonal-1': {
-          '0%, 100%': { transform: 'translate(0, 0)' },
-          '50%': { transform: 'translate(20px, 20px)' },
+        'edge-bounce-1': {
+          '0%': { transform: 'translate(0, 0)' },
+          '25%': { transform: 'translate(100%, 100%)' },
+          '50%': { transform: 'translate(0, 200%)' },
+          '75%': { transform: 'translate(-100%, 100%)' },
+          '100%': { transform: 'translate(0, 0)' },
         },
-        'bounce-diagonal-2': {
-          '0%, 100%': { transform: 'translate(0, 0)' },
-          '50%': { transform: 'translate(-20px, 20px)' },
+        'edge-bounce-2': {
+          '0%': { transform: 'translate(0, 0)' },
+          '25%': { transform: 'translate(-100%, -100%)' },
+          '50%': { transform: 'translate(0, -200%)' },
+          '75%': { transform: 'translate(100%, -100%)' },
+          '100%': { transform: 'translate(0, 0)' },
         },
-        'bounce-diagonal-3': {
-          '0%, 100%': { transform: 'translate(0, 0)' },
-          '50%': { transform: 'translate(20px, -20px)' },
+        'edge-bounce-3': {
+          '0%': { transform: 'translate(0, 0)' },
+          '25%': { transform: 'translate(100%, -100%)' },
+          '50%': { transform: 'translate(200%, 0)' },
+          '75%': { transform: 'translate(100%, 100%)' },
+          '100%': { transform: 'translate(0, 0)' },
         },
-        'bounce-diagonal-4': {
-          '0%, 100%': { transform: 'translate(0, 0)' },
-          '50%': { transform: 'translate(-20px, -20px)' },
+        'edge-bounce-4': {
+          '0%': { transform: 'translate(0, 0)' },
+          '25%': { transform: 'translate(-100%, 100%)' },
+          '50%': { transform: 'translate(-200%, 0)' },
+          '75%': { transform: 'translate(-100%, -100%)' },
+          '100%': { transform: 'translate(0, 0)' },
         }
       },
       animation: {
         blink: 'blink 1s step-end infinite',
         glitch: 'glitch 0.3s ease infinite',
         float: 'float 3s ease-in-out infinite',
-        'bounce-diagonal-1': 'bounce-diagonal-1 3s infinite',
-        'bounce-diagonal-2': 'bounce-diagonal-2 4s infinite',
-        'bounce-diagonal-3': 'bounce-diagonal-3 3.5s infinite',
-        'bounce-diagonal-4': 'bounce-diagonal-4 4.5s infinite',
+        'edge-bounce-1': 'edge-bounce-1 8s linear infinite',
+        'edge-bounce-2': 'edge-bounce-2 10s linear infinite',
+        'edge-bounce-3': 'edge-bounce-3 12s linear infinite',
+        'edge-bounce-4': 'edge-bounce-4 9s linear infinite',
       },
       backgroundImage: {
         'rainbow-gradient': 'linear-gradient(45deg, #FF6AD5, #26C6DA, #FFE45E, #72F1B8)',
