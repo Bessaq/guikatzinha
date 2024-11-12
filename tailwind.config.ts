@@ -12,6 +12,8 @@ export default {
   theme: {
     extend: {
       colors: {
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
         neon: {
           pink: '#FF6AD5',
           blue: '#26C6DA',
