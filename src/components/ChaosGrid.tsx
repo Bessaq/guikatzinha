@@ -16,7 +16,7 @@ const media = [
   },
   {
     type: 'video',
-    src: "/video1.mp4",
+    src: "/video1.MP4",
     alt: "Friends video 1",
     className: "col-span-1 row-span-2 animate-edge-bounce-3"
   },
@@ -28,7 +28,7 @@ const media = [
   },
   {
     type: 'video',
-    src: "/video2.mp4",
+    src: "/video2.mov",
     alt: "Friends video 2",
     className: "col-span-1 row-span-1 animate-edge-bounce-1"
   },
