@@ -3,24 +3,29 @@ import { cn } from "@/lib/utils";
 
 const images = [
   {
-    src: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
-    alt: "Tech",
+    src: "/friends1.jpg",
+    alt: "Friends having fun",
     className: "col-span-2 row-span-2 animate-edge-bounce-1"
   },
   {
-    src: "https://images.unsplash.com/photo-1518770660439-4636190af475",
-    alt: "Circuit",
+    src: "/friends2.jpg",
+    alt: "Peace signs",
     className: "col-span-1 row-span-1 animate-edge-bounce-2"
   },
   {
-    src: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-    alt: "Tech",
+    src: "/christmas.jpg",
+    alt: "Christmas tree selfie",
     className: "col-span-1 row-span-2 animate-edge-bounce-3"
   },
   {
-    src: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
-    alt: "Matrix",
+    src: "/cooking.jpg",
+    alt: "Cooking time",
     className: "col-span-2 row-span-1 animate-edge-bounce-4"
+  },
+  {
+    src: "/friends3.jpg",
+    alt: "Friends selfie",
+    className: "col-span-1 row-span-1 animate-edge-bounce-1"
   }
 ];
 
