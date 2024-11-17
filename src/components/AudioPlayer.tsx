@@ -25,7 +25,7 @@ const AudioPlayer = () => {
       controls
       className="fixed bottom-4 right-4 z-50"
     >
-      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg" />
+      <source src="/rina.mp3" type="audio/mpeg" />
       Your browser does not support the audio element.
     </audio>
   );

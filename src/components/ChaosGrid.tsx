@@ -9,21 +9,21 @@ const images = [
   },
   {
     src: "/friends2.jpg",
-    alt: "Peace signs",
+    alt: "Friends photo",
     className: "col-span-1 row-span-1 animate-edge-bounce-2"
   },
   {
-    src: "/christmas.jpg",
-    alt: "Christmas tree selfie",
+    src: "/friends3.jpg",
+    alt: "Friends moment",
     className: "col-span-1 row-span-2 animate-edge-bounce-3"
   },
   {
-    src: "/cooking.jpg",
-    alt: "Cooking time",
+    src: "/friends4.jpg",
+    alt: "Friends together",
     className: "col-span-2 row-span-1 animate-edge-bounce-4"
   },
   {
-    src: "/friends3.jpg",
+    src: "/friends5.jpg",
     alt: "Friends selfie",
     className: "col-span-1 row-span-1 animate-edge-bounce-1"
   }
