@@ -3,27 +3,27 @@ import { cn } from "@/lib/utils";
 
 const images = [
   {
-    src: "/friends1.jpg",
+    src: "/friends1.JPEG",
     alt: "Friends having fun",
     className: "col-span-2 row-span-2 animate-edge-bounce-1"
   },
   {
-    src: "/friends2.jpg",
+    src: "/friends2.JPEG",
     alt: "Friends photo",
     className: "col-span-1 row-span-1 animate-edge-bounce-2"
   },
   {
-    src: "/friends3.jpg",
+    src: "/friends3.JPG",
     alt: "Friends moment",
     className: "col-span-1 row-span-2 animate-edge-bounce-3"
   },
   {
-    src: "/friends4.jpg",
+    src: "/friends4.JPG",
     alt: "Friends together",
     className: "col-span-2 row-span-1 animate-edge-bounce-4"
   },
   {
-    src: "/friends5.jpg",
+    src: "/friends5.JPG",
     alt: "Friends selfie",
     className: "col-span-1 row-span-1 animate-edge-bounce-1"
   }
