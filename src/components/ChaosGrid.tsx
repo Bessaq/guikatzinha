@@ -31,7 +31,7 @@ const images = [
 
 const ChaosGrid = () => {
   return (
-    <div className="grid grid-cols-4 gap-4 p-4 relative overflow-hidden">
+    <div className="grid grid-cols-4 gap-4 p-4 relative overflow-hidden h-[600px]">
       {images.map((img, idx) => (
         <div 
           key={idx} 
@@ -44,6 +44,10 @@ const ChaosGrid = () => {
             src={img.src}
             alt={img.alt}
             className="w-full h-full object-cover"
+            onError={(e) => {
+              console.error(`Error loading image: ${img.src}`);
+              e.currentTarget.src = '/placeholder.svg';
+            }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
         </div>
