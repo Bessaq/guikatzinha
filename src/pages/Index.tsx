@@ -2,10 +2,12 @@ import React from 'react';
 import BlinkingText from '@/components/BlinkingText';
 import ChaosGrid from '@/components/ChaosGrid';
 import MessageBubble from '@/components/MessageBubble';
+import AudioPlayer from '@/components/AudioPlayer';
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-retro-grid bg-black">
+      <AudioPlayer />
       <div className="container mx-auto px-4 py-8">
         <header className="flex flex-col items-center justify-center text-center mb-12">
           <BlinkingText 
