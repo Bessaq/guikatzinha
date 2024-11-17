@@ -10,7 +10,7 @@ const BlinkingText = ({ text, className }: BlinkingTextProps) => {
   return (
     <div 
       className={cn(
-        "retro-text animate-blink",
+        "retro-text animate-blink text-center",
         className
       )}
       data-text={text}
