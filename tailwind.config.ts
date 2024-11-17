@@ -26,19 +26,6 @@ export default {
         }
       },
       keyframes: {
-        blink: {
-          '0%, 100%': { opacity: '1' },
-          '50%': { opacity: '0' },
-        },
-        glitch: {
-          '0%, 100%': { transform: 'translate(0)' },
-          '33%': { transform: 'translate(-5px, 2px)' },
-          '66%': { transform: 'translate(5px, -2px)' },
-        },
-        float: {
-          '0%, 100%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(-10px)' },
-        },
         'edge-bounce-1': {
           '0%': { transform: 'translate(0, 0)' },
           '25%': { transform: 'translate(100%, 100%)' },
@@ -69,13 +56,10 @@ export default {
         }
       },
       animation: {
-        blink: 'blink 1s step-end infinite',
-        glitch: 'glitch 0.3s ease infinite',
-        float: 'float 3s ease-in-out infinite',
-        'edge-bounce-1': 'edge-bounce-1 8s linear infinite',
-        'edge-bounce-2': 'edge-bounce-2 10s linear infinite',
-        'edge-bounce-3': 'edge-bounce-3 12s linear infinite',
-        'edge-bounce-4': 'edge-bounce-4 9s linear infinite',
+        'edge-bounce-1': 'edge-bounce-1 16s linear infinite',
+        'edge-bounce-2': 'edge-bounce-2 20s linear infinite',
+        'edge-bounce-3': 'edge-bounce-3 24s linear infinite',
+        'edge-bounce-4': 'edge-bounce-4 18s linear infinite',
       },
       backgroundImage: {
         'rainbow-gradient': 'linear-gradient(45deg, #FF6AD5, #26C6DA, #FFE45E, #72F1B8)',
